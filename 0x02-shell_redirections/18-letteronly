@@ -1,2 +1,2 @@
 #!/bin/bash
-ls [[:upper:]]* - [[:lower:]]* /etc/ssh/sshd_config 
+ls -i "^[a-z]" /etc/ssh/sshd_config 
