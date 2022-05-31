@@ -1,0 +1,2 @@
+#!/bin/bash
+alias rot13="base64 | base64 -d"
