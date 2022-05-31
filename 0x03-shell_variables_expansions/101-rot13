@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "alias rot13="base64 | base64 -d""
+alias -p rot13="base64 | base64 -d" | echo $rot13
