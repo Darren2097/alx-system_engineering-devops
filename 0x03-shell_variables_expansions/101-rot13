@@ -1,2 +1,2 @@
 #!/bin/bash
-alias -p rot13="base64 | base64 -d" 
+tr '[A-Za-z]' '[N-ZA-Mn-za-m]' 
