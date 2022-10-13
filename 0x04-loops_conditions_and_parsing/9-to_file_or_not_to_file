@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 #bash script that gives you information about the school file
 exists=0
-for _ in *; do
-	if [ -e "school" ]
+for file in *; do
+	if [ "$file" == "school" ]
 	then
 		exists=1
 		echo "school file exists"
