@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+#bash script that displays directory contents after first dash is displayed
+for line in *; do
+	echo $line | cut -d '-' -f2
+done
