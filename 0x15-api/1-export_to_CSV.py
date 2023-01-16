@@ -26,7 +26,7 @@ def get_todo_list(url, user_id):
 
 if __name__ == '__main__':
     user_id = sys.argv[1]
-    base_url = 'https://jsonplaceholder.typicode.com/'
+    url = 'https://jsonplaceholder.typicode.com/'
 
     uname = get_uname(url, user_id)
     todo_list = get_todo_list(url, user_id)
