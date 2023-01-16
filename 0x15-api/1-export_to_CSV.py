@@ -12,7 +12,7 @@ def get_uname(url, user_id):
             "{}users/{}".format(url, user_id))
     usr_dict = response.json()
 
-    return usr_dict['username']
+    return usr_dict['name']
 
 
 def get_todo_list(url, user_id):
