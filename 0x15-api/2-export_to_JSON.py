@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-# script to gather todo data from an API and write to JSON file
+"""script to gather todo data from an API and write to JSON file"""
 import json
 import requests
 import sys
